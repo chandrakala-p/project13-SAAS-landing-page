@@ -10,7 +10,7 @@ Chandrakala P
 
 ### Live project Link:
 
-[project link](https://bussiness-landing-page-project12.netlify.app/)
+[project link](https://saas-landing-page-project13.netlify.app/)
 
 ## What I learnt from this Project?
 
