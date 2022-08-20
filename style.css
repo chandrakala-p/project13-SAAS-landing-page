@@ -202,7 +202,7 @@ nav a:first-child {
 
 @media screen and (max-width:750px) {
     body {
-        /* overflow-x: hidden; */
+        overflow-x: hidden;
     }
 
     * {
@@ -233,8 +233,11 @@ nav a:first-child {
         padding-bottom: 30px;
     }
 
-    .head-text h1 {
+    .head-text h1,
+    p {
         width: auto;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     .front-img {
