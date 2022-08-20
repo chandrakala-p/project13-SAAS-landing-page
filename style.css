@@ -196,3 +196,81 @@ nav a:first-child {
 .card-content:hover {
     background-color: rgba(103, 9, 180, 0.925);
 }
+
+
+
+
+@media screen and (max-width:750px) {
+    body {
+        /* overflow-x: hidden; */
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .head {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .head-btn {
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+
+    .head-content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .head-text h1 {
+        width: auto;
+    }
+
+    .front-img {
+        width: 70%;
+    }
+
+    .list h3,
+    p {
+        width: auto;
+    }
+
+    header {
+        height: max-content;
+    }
+
+    .mid-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .left img {
+        width: 80%;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+}
